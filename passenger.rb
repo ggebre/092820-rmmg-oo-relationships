@@ -20,6 +20,14 @@ class Passenger
   def rate_last_ride(num)
     #write code here that takes the number argument and applies it to the @rating variable of the last ride that this driver took
     #make sure a score is no less than 1 and no greater than 5
+    if num < 1 
+      rides.last.rating = 1
+    elsif num > 5
+      rides.last.rating = 5
+    else
+      rides.last.rating = num
+    end
+    rides 
   end
 
 end

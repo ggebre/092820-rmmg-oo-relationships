@@ -21,6 +21,6 @@ michael.pick_up_passenger(getu, 10)
 
 #randi.rate_last_ride(5)
 #getu.rate_last_ride(1)
-#getu.rating should return 3  
+#michael.rating should return 3  
 
 binding.pry
